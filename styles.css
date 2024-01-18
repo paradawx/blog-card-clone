@@ -82,6 +82,12 @@ body {
     text-align: center;
     font-weight: 800;
     font-size: .75rem;
+    border: none;
+}
+
+.learning:hover {
+    box-shadow: .2rem .2rem;
+    cursor: pointer;
 }
 
 .design-card {
@@ -128,6 +134,20 @@ body {
 h1 {
     font-size: 1.25rem;
     font-weight: 800;
+}
+
+h1:hover {
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.publisher-photo:hover{
+    cursor: pointer;
+}
+
+.publisher:hover {
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 footer {
